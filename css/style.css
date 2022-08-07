@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+.wrapper{
+	width: 1110px;
+    margin: 0 auto;
+}
+
+
+
+
+header{
+	
+	background: url(../image/Bg.png);
+	background-size: cover;
+	
+}
+header .logo, header .nav, header .language_image, header .language, header .login, header .sign{
+	display: inline-block;
+	vertical-align: top;
+}
+header .nav ul li{
+	display: inline-block;
+	vertical-align: top; 
+}
+header .nav{
+	margin-top: 58px;
+}
+header .language_image{
+	margin-left: 97px;
+	margin-top: 54px;
+	margin-right: 11px;
+}
+header .logo{
+	margin-top: 55px;
+	margin-right: 161px;
+}
+header .nav ul li a{
+	/*font-weight: 400;*/
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 16px;
+}
+header .nav ul{
+	height: 22px;
+	padding-top: 3px;
+}
+header .nav li:first-child{
+	font-weight: 700;
+}
+/*.first_word{
+	font-weight: 700;
+}*/
+header .language, header .login{
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header .login{
+	padding: 11px 28px 12px 29px;
+	border: 1px solid #FFFFFF;
+	border-radius: 6px;
+	margin-top: 50px;
+
+}
+header .language{
+	margin-top: 59px;
+	height: 32px;
+	width: 22px;
+	padding-top: 2px;
+    margin-right: 3px;
+
+}
+header .sign{
+	margin-top: 67.27px;
+	margin-right: 28.81px;
+
+}
+header .header_text{
+	text-align: center;
+	color: #FFFFFF;
+}
+header .header_text h1{
+	font-size: 72px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-top: 167px;
+
+}
+header .header_text p{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 39px;
+	height: 124px;
+}
+header .sign_up{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 17px 53px 16px 52px;
+	cursor: pointer;
+	color: #ED4C5C;
+	background: #FFFFFF;
+	display: inline-block;
+	border-radius: 6px;
+	margin-top: 39px;
+	margin-bottom: 187px;
+	
+}
